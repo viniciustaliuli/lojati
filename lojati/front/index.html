@@ -1,0 +1,49 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>LojaTI</h1>
+        <p>Cadastro de Clientes</p>
+    </header>
+
+    <main>
+        <h2>Cadastrar Cliente</h2>
+        <p>Preencha os campos abaixo.</p>
+
+        <form action="http://localhost/lojati/back/index.php?rota=adicionarclientes" method="post">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <button type="submit">Cadastrar</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>LojaTI © 2026</p>
+    </footer>
+
+</body>
+
+</html>
+```
